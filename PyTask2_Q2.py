@@ -1,15 +1,3 @@
-#first=input("Enter the first number: ")
-#second=input("Enter the second number: ")
-
-#first1=input("Enter the first number: ")
-#second2=input("Enter the second number: ")
-
-#To_1 = (first + second)
-#To_2 = (first - second)
-#To_3 = (first / second)
-#To_4= (first * second)
-#To_5 = (first1 + second2)/2
-
 #Following operations will be assigned if you enter:
 #   1 - Addition
 #   2 - Substraction
