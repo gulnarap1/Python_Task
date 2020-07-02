@@ -163,5 +163,22 @@ for i in s:
 print("The number of letters is", l)
 print("The number of digits is", d)
 
+#Question 9
+lucky=9
 
+listed=['yes', 'Yes', 'YES']
+
+while True:
+    number= int(input('Guess lucky number: '))
+    print(number)
+    if number==lucky:
+        print('The end!')
+        break
+    elif number!=lucky:
+        answer = input("Would you like to guess again?")
+        print(answer)
+        if answer in listed:
+            continue
+        else:
+            break
 
