@@ -182,3 +182,40 @@ while True:
         else:
             break
 
+#Question 10
+lucky=5
+
+counter=1
+
+while counter<=5:
+    number=int(input('Guess the lucky number. You may do so only 5 times:'))
+    print("You typed", number)
+    if number==lucky:
+        print('Good guess!')
+        continue
+    elif number!=lucky and counter==5:
+        print('Game Over!')
+        break
+    elif number!=lucky:
+        print('Try again!')
+        counter=counter+1
+        continue
+
+#Quesion 11
+lucky=5
+
+counter=1
+
+while counter<=5:
+    number=int(input('Guess the lucky number. You may do so only 5 times:'))
+    print("You typed", number)
+    if number==lucky:
+        print('Good guess!')
+        break
+    elif number!=lucky and counter==5:
+        print('Sorry but that was not very successful.')
+        break
+    elif number!=lucky:
+        print('Try again!')
+        counter=counter+1
+        continue
